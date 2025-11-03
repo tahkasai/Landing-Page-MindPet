@@ -1,0 +1,13 @@
+.botaoPreto,.botaoBranco,.botaoTransparente{
+    padding: 0.875em 2.5em; /*14px 40px*/
+}
+.botaoPreto{
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+.botaoTransparente{
+    background-color: transparent;
+}
+.botaoBranco{
+    background-color: var(--cor-branco);
+}

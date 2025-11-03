@@ -1,0 +1,51 @@
+header{
+    width: 90%;
+    margin: 2.875em auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuBar{
+    display: none;
+    font-size: 2em;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 4%;
+    color: var(--cor-azul);
+}
+header .logo img{
+    width: 5.25em;
+}
+header .titulo{
+    font-size: 2.25em;
+}
+header ul{
+    gap: 5.625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+header li{
+    list-style: none;
+    font-size: 1.5em;
+}
+header li a{
+    color: var(--cor-preto);
+}
+@media (max-width:1220px) {
+    header ul{
+        gap: 2.5em;
+    }
+}
+@media (max-width: 950px) {
+    .menuBar{
+        display: inline;
+    }
+    header ul{
+        display: none;
+    }
+}
