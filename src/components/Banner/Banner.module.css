@@ -1,0 +1,162 @@
+.banner {
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.informacoesBanner {
+  gap: 3em;
+  width: 70%;
+  display: flex;
+  margin-bottom: 10vh;
+  flex-direction: column;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  max-width: 1500px;
+}
+.botoes {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+/* Topicos */
+.topicos {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-top: -1em;
+  padding: 3em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--cor-branco);
+  border-radius: 2em;
+  background-color: var(--cor-azul);
+}
+.topico {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.titulo {
+  gap: 3%;
+  display: flex;
+  align-items: center;
+}
+.titulo p {
+  font-weight: 600;
+}
+.titulo i {
+  font-size: 2em;
+}
+.texto {
+  font-size: 1.3em;
+}
+/* Media Queries */
+@media (max-width: 1600px) {
+  .banner img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+  }
+  .informacoesBanner {
+    gap: 2em;
+  }
+  /* FONTES */
+  h1 {
+    font-size: 3.5em;
+  }
+  p {
+    font-size: 1.5em; 
+  }
+  button {
+    font-size: 1.3em; 
+  }
+  .texto {
+    font-size: 1.15em;
+  }
+}
+@media (max-width: 1370px) {
+  .banner {
+    gap: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .informacoesBanner {
+    text-align: center;
+    align-items: center;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+  }
+  .topicos{
+    gap: 3em;
+    flex-direction: column;
+  }
+  .topico{
+    gap: .5em;
+    width: 80%;
+  }
+  .botoes{
+    align-items: center;
+    justify-content: center;
+  }
+  /* FONTES */
+  h1 {
+    font-size: 3em; 
+  }
+  p {
+    font-size: 1.3em; 
+  }
+  button {
+    font-size: 1.2em; 
+  }
+  .titulo i {
+    font-size: 1.8em;
+  }
+  .texto {
+    font-size: 1.1em; 
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    margin-top: 2rem;
+  }
+  .botoes {
+    flex-direction: column;
+    width: 100%;
+  }
+  .botoes button {
+    width: 100%;
+  }
+  /* FONTES */
+  h1 {
+    font-size: 2em; 
+    line-height: 1.2;
+  }
+  p {
+    font-size: 1.1em; 
+  }
+  button {
+    font-size: 1em; 
+  }
+  .titulo i {
+    font-size: 1.4em;
+  }
+  .titulo p {
+    font-size: 1.1em;
+  }
+  .texto {
+    font-size: 1em; 
+  }
+}
