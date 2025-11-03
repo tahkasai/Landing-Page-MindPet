@@ -4,6 +4,7 @@
   --cor-branco: #F4F1F0;
   --cor-azul: #0490CC;
   --cor-preto: #222222;
+  --cor-cinza: #343434;
 
   /* Fonte */
   --font-instrument-sans: "Instrument Sans", sans-serif;
@@ -15,9 +16,17 @@
 }
 body{
   font-family: var(--font-instrument-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1{
+  font-size: 4em;
 }
 a{
   text-decoration: none;
+}
+p{
+  font-size: 1.6875em;
 }
 button{
   border-radius: 0.625em; /*10px*/
@@ -25,4 +34,7 @@ button{
   font-size: 1.5em; /*24px*/
   font-weight: 600;
   font-family: var(--font-instrument-sans);
+}
+.texto-azul{
+  color: var(--cor-azul);
 }

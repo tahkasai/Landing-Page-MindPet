@@ -2,12 +2,18 @@
     padding: 0.875em 2.5em; /*14px 40px*/
 }
 .botaoPreto{
+    border: none;
     background-color: var(--cor-preto);
     color: var(--cor-branco);
 }
+.botaoPreto:hover{
+    background-color: var(--cor-cinza);
+}
 .botaoTransparente{
     background-color: transparent;
+    border: 1px solid var(--cor-preto);
 }
 .botaoBranco{
+    border: none;
     background-color: var(--cor-branco);
 }
