@@ -24,12 +24,14 @@ h1{
 }
 h2{
   font-size: 3em;
+  line-height: 1.2;
 }
 a{
   text-decoration: none;
 }
 p{
   font-size: 1.6875em;
+  line-height: 1.6;
 }
 button{
   border-radius: 0.625em; /*10px*/

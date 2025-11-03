@@ -11,3 +11,49 @@
     flex-direction: column;
     gap: 2em;
 }
+@media (max-width: 1220px) {
+  .sobre h2 {
+    font-size: 2.5em; 
+  }
+
+  .sobre p {
+    font-size: 1.25em; 
+  }
+}
+@media (max-width: 950px) {
+  .sobre {
+    width: 90%;
+    margin: 6em auto;
+  }
+
+  .sobre h2 {
+    font-size: 2.2em; 
+  }
+
+  .sobre p {
+    font-size: 1.15em; 
+  }
+
+  .texto {
+    gap: 1.6em;
+  }
+}
+@media (max-width: 480px) {
+  .sobre {
+    width: 95%;
+    margin: 4em auto;
+  }
+
+  .sobre h2 {
+    font-size: 1.8em; 
+  }
+
+  .sobre p {
+    font-size: 1em; 
+    line-height: 1.5;
+  }
+
+  .texto {
+    gap: 1.2em;
+  }
+}
