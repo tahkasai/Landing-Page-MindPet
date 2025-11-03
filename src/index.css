@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+  /* Cores */
+  --cor-branco: #F4F1F0;
+  --cor-azul: #0490CC;
+  --cor-preto: #222222;
+
+  /* Fonte */
+  --font-instrument-sans: "Instrument Sans", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: var(--font-instrument-sans);
+}
