@@ -1,0 +1,13 @@
+.sobre{
+    width: 80%;
+    margin: 8em auto ;
+    text-align: center;
+}
+.sobre h2{
+    margin-bottom: 1.1em;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
