@@ -6,7 +6,7 @@ export default function Topic(props){
             <article className={styles.card}>
                 <i class={props.icon}></i>
                 <p>{props.titulo}</p>
-                <span className="titulo">{props.texto}</span>
+                <span className="texto">{props.texto}</span>
             </article>
         </>
         
