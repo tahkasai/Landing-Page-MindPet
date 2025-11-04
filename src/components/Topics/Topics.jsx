@@ -17,7 +17,7 @@ export default function Topics(){
                 />
                 <Topic
                 icon='fa-solid fa-hand-holding-hand'
-                titulo='Cuidados personalizados'
+                titulo='Cuidados personalizados '
                 texto='Recebe recomendações práticas e alertas no aplicativo, ajudando a antecipar cuidados e garantir mais conforto ao seu companheiro.'
                 />
             </section>

@@ -9,5 +9,6 @@ export default function Topic(props){
                 <span className="titulo">{props.texto}</span>
             </article>
         </>
+        
     );
 }
