@@ -1,0 +1,25 @@
+.background{
+    color: var(--cor-branco);
+    background-color: var(--cor-azul);
+    padding: 4em 0;
+}
+.app{
+    gap: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.informacao{
+    width: 80%;
+    gap: 3em;
+    display: flex;
+    flex-direction: column;
+}
+.mockup{
+    width: 100%;
+}
+.mockup img{
+    width: 100%;
+}

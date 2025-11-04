@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import About from './components/About/about'
 import Topics from './components/Topics/Topics'
 import Kit from './components/KitMindPet/Kit'
+import AboutApp from './components/AboutApp/AboutApp'
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ export default function App() {
     <About/>
     <Topics/>
     <Kit/>
+    <AboutApp/>
     </>
   )
 }
