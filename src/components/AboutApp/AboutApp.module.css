@@ -23,3 +23,12 @@
 .mockup img{
     width: 100%;
 }
+@media (max-width: 950px) {
+    .app{
+        gap: 2em;
+        flex-direction: column;
+    }
+    .informacao{
+        text-align: center;
+    }
+}
