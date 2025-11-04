@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
 import About from './components/About/about'
+import Topics from './components/Topics/Topics'
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ export default function App() {
     <Header/>
     <Banner/>
     <About/>
+    <Topics/>
     </>
   )
 }
