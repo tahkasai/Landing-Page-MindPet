@@ -15,5 +15,6 @@
 }
 .botaoBranco{
     border: none;
+    color: var(--cor-azul);
     background-color: var(--cor-branco);
 }

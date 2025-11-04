@@ -17,7 +17,7 @@ export function ButtonTransparente(props){
 export function ButtonBranco(props){
     return(
         <>
-            <button className={styles.ButtonBranco}><a href={props.link}>{props.nomeBotao}</a></button>
+            <button className={styles.botaoBranco}><a href={props.link}>{props.nomeBotao}</a></button>
         </>
     );
 }

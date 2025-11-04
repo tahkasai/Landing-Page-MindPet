@@ -18,6 +18,8 @@ body{
   font-family: var(--font-instrument-sans);
   font-size: 16px;
   line-height: 1.5;
+  color: var(--cor-preto);
+  background-color: var(--cor-branco);
 }
 h1{
   font-size: 4em;
