@@ -1,0 +1,75 @@
+footer{
+    color: var(--cor-branco);
+    background-color: var(--cor-preto);
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 0;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.mindpetLogo{
+    display: flex;
+    align-items: center;
+}
+.mindpetLogo img{
+    width: 6em;
+}
+.nomelogo{
+    color: var(--cor-azul);
+    font-size: 2.4em;
+    font-weight: 600;
+}
+.mindpet{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.mindpet ul{
+    gap: 2em;
+}
+.mindpet ul li a{
+    color: var(--cor-branco);
+    font-size: 1.6em;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.redes i{
+    font-size: 3em;
+    color: var(--cor-branco);
+}
+.redes p{
+    display: flex;
+}
+@media (max-width: 950px) {
+    .footer{
+        gap: 3em;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .mindpetLogo{
+        justify-content: center;
+    }
+}
+@media (max-width: 480px) {
+    .nomelogo {
+        font-size: 1.8em;
+    }
+    .mindpet ul{
+        flex-direction: column;
+    }
+    .redes i{
+        font-size: 1.5em;
+    }
+}

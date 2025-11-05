@@ -7,6 +7,7 @@ import Topics from './components/Topics/Topics'
 import Kit from './components/KitMindPet/Kit'
 import AboutApp from './components/AboutApp/AboutApp'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ export default function App() {
     <Kit/>
     <AboutApp/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
