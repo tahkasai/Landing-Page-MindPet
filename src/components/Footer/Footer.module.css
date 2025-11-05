@@ -37,7 +37,7 @@ footer{
 }
 .mindpet ul li a{
     color: var(--cor-branco);
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 .redes{
     display: flex;
@@ -45,10 +45,11 @@ footer{
     gap: 2em;
 }
 .redes i{
-    font-size: 3em;
+    font-size: 2.7em;
     color: var(--cor-branco);
 }
 .redes p{
+    font-size: 1.4em;
     display: flex;
 }
 @media (max-width: 950px) {
