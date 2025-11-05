@@ -21,3 +21,10 @@ export function ButtonBranco(props){
         </>
     );
 }
+export function ButtonAzulSubmit(){
+    return(
+        <>
+            <button className={styles.botaoAzul} type='submit'>Enviar</button>
+        </>
+    );
+}
