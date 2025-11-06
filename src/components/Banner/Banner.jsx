@@ -9,7 +9,7 @@ import styles from './Banner.module.css';
 export default function Banner(props){
     return(
         <>
-        <section className={styles.banner}>
+        <section className={styles.banner} id='inicio'>
             <div className={styles.informacoesBanner}>
                 <h1>Ouça o que seu animal mais precisa com o MindPet <span className="texto-azul">.</span></h1>
                 <p>A tecnologia que interpreta os sinais corporais e comportamentais do seu pet em emoções e necessidades.</p>

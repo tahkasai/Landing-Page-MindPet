@@ -4,7 +4,7 @@ import Styles from './Kit.module.css'
 export default function Kit(){
     return(
         <>
-            <section className={Styles.kit}>
+            <section className={Styles.kit} id='produto'>
                 <h2>Kit <span className="texto-azul">MindPet</span></h2>
                 <div className={Styles.boxKit}>
                     <div className={Styles.informacoes}>
