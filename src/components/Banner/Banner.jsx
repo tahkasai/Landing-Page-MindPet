@@ -14,8 +14,8 @@ export default function Banner(props){
                 <h1>Ouça o que seu animal mais precisa com o MindPet <span className="texto-azul">.</span></h1>
                 <p>A tecnologia que interpreta os sinais corporais e comportamentais do seu pet em emoções e necessidades.</p>
                 <div className={styles.botoes}>
-                    <ButtonPreto nomeBotao='Entre em contato'/>
-                    <ButtonTransparente nomeBotao='Leia mais'/>
+                    <ButtonPreto nomeBotao='Entre em contato' link='#contato'/>
+                    <ButtonTransparente nomeBotao='Leia mais' link='#sobre'/>
                 </div>
             </div>
             <div className="imagem-banner">

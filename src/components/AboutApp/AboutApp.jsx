@@ -12,7 +12,7 @@ export default function AboutApp(){
                     <h2>Dê voz ao seu pet com MindPet.</h2>
                     <p>Adquirindo seu Kit MindPet, você tem acesso ao nosso aplicativo, que reúne os dados captados pelos sensores e mostra relatórios em tempo real sobre o bem-estar do seu pet.</p>
                     <div>
-                        <ButtonBranco nomeBotao='Entre em Contato'/>
+                        <ButtonBranco nomeBotao='Entre em Contato' link='#contato'/>
                     </div>
                 </div>
                 <div className={Styles.mockup}>

@@ -28,3 +28,10 @@ export function ButtonAzulSubmit(){
         </>
     );
 }
+export function ButtonAzul(props){
+    return(
+        <>
+        <button className={styles.botaoAzul}><a href={props.link}>{props.nomeBotao}</a></button>
+        </>
+    );
+}
