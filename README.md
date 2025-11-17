@@ -11,6 +11,10 @@ A proposta do projeto é utilizar sensores inteligentes acoplados a uma coleira 
 * Front-end: React.js, Vite, JavaScript, HTML e CSS.
 * Design: Figma.
 
+## 🎨 Protótipo da Landing Page
+<img width="100%" height="auto" alt="Landing Page" src="https://github.com/user-attachments/assets/670d55fb-3674-4577-95c9-ab6d5ebfe39d" />
+
+
 ## 🚀 Como executar o projeto
 
 1. Clone o repositório
