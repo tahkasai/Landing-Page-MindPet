@@ -7,6 +7,8 @@ O MindPet é um projeto de interface e protótipo de sistema voltado para o bem-
 
 A proposta do projeto é utilizar sensores inteligentes acoplados a uma coleira para monitorar sinais corporais e comportamentais do pet, interpretando essas informações com inteligência artificial e apresentando insights em um aplicativo conectado.
 
+🔗<a href="https://www.linkedin.com/posts/taina-kasai_figma-reactjs-projeto-activity-7395989028644462592-9EO6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETSkCQBzfpALRlo21VomTG8prsUhwfVcSs">link do Linkedin</a>
+
 ## 💻 Tecnologias utilizadas
 * Front-end: React.js, Vite, JavaScript, HTML e CSS.
 * Design: Figma.
